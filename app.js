@@ -6,7 +6,7 @@ const indexRoute = require('./routes/index')
 
 
 //using routes
-app.use('/api', indexRoute)
+app.use('/', indexRoute)
 
 
 
